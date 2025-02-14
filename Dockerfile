@@ -15,3 +15,4 @@ EXPOSE 5000
 
 # Comando para rodar a aplicação
 CMD ["python", "Neurotx_Wallet.py"]
+
