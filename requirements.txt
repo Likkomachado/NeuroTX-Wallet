@@ -2,3 +2,4 @@ flask
 requests
 ecdsa
 sqlite3
+gunicorn
