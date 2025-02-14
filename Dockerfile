@@ -14,5 +14,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 EXPOSE 5000
 
 # Comando para rodar a aplicação
-CMD ["python", "Neurotx_Wallet.py"]
-
+CMD ["gunicorn", "-b", "0.0.0.0:5000", "Neurotx_Wallet_Colab:app"]
